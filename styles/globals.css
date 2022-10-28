@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   font-family: sans-serif;
+   color: #354358;
+}
+
+/* //TODO put this in document */
+/* body {
+   background-color: black;
+} */
+
+.b-hover:hover{
+   box-shadow: 0 10px 20px 0 rgba(76, 187, 221, 0.2)
+}
+.b-hover {
+   border-radius: 5px;
+}
+.hover-scale:hover {
+   transform: scale(1.1);
+   transition-delay: 100ms;
+   transition-duration: 500ms;
+ }
+
+ ::-webkit-scrollbar-thumb {
+   background-image: linear-gradient(to right bottom, #5dbeeb,#1f55b9)
+ }
+ 
+ ::-webkit-scrollbar {
+   width: 8px;
+   height: 0px;
+ }
+ 
