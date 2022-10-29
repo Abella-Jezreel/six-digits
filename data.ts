@@ -148,7 +148,7 @@ export const projects: IProject[] = [
   {
     id:3,
     name: "Web Style Guide",
-    image_path: "/images/web-style-guide.PNG",
+    image_path: "/images/Web-Style-Guide.PNG",
     deployed_url: "https://teamabella060420.github.io/Web-Style-Guide/#grid",
     github_url: "https://github.com/TeamAbella060420/Web-Style-Guide",
     category: ["SCSS"],
