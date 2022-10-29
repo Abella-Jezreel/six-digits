@@ -12,7 +12,7 @@ import { Service } from "../types";
 import { motion } from 'framer-motion'
 import { fadeInUp, stagger, routeAnimation } from "../animation";
 
-const About: NextPage = () => {
+const About = ({endpoint}) => {
   // console.log(services);
 
   return (
@@ -52,7 +52,7 @@ export const getServerSideProps: GetServerSideProps = async (
    const res = await fetch('${process.env.VERCEL_URL}/api/services')
    const data = await res.json()
    console.log(data)
-   return { props: { services: data.services } }
+   return { props: { endpoint: process.env.VERCEL_URL } }
 }
 
 //!called only during the build of the project
