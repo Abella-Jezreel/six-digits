@@ -122,6 +122,17 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
   { 
+    id:0,
+    name: "Food Order",
+    description:
+      "This is the food web. This react.js project is a webapp that enable users to order food online. The users can store their orders in a cart and order from there and see the amounts of dishes available and the quantities. This app has all the functionalities behavior, major and minor that an amazon website has.",
+    image_path: "/images/food-web.PNG",
+    deployed_url: "https://food-web-mu.vercel.app/",
+    github_url: "https://github.com/TeamAbella060420/food-web",
+    category: ["react"],
+    key_techs: ["ReactJS", "JavaScript"],
+  },
+  { 
     id:1,
     name: "Simple Profile",
     description:
