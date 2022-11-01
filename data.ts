@@ -115,7 +115,7 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "MS Office",
+    name: "Github",
     level: "90",
   },
 ];
