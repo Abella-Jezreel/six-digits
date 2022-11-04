@@ -258,7 +258,7 @@ export const projects: IProject[] = [
     name: "Interactive Photo Gallery",
     image_path: "/images/Interactive.PNG",
     deployed_url: "https://teamabella060420.github.io/U5-Project-Interactive-Photo-Gallery/",
-    github_url: "https://github.com/TeamAbella060420/U4-Transition-Transform-3",
+    github_url: "https://github.com/TeamAbella060420/U5-Project-Interactive-Photo-Gallery",
     category: ["JavaScript"],
     description:
       "This project showcases a responsive image gallery with real-time search and baguetteBox to display a larger version of the image with a caption. I wrote JavaScript to allow users to do a real-time search, hiding images that do not have a caption to match the users search. The project uses minimal CSS by using grid for the image gallery.",
