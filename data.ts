@@ -134,6 +134,17 @@ export const projects: IProject[] = [
   },
   { 
     id:1,
+    name: "Expense Tracker",
+    description:
+      "Check your account statements. Pinpoint your money habits by taking inventory of all of your accounts, including your checking account and all credit cards you have. Looking at your accounts will help you identify your spending patterns. Your spending will consist of both fixed expenses and variable expenses.",
+    image_path: "/images/expense-tracker.PNG",
+    deployed_url: "https://expense-monitorer.vercel.app/",
+    github_url: "https://github.com/TeamAbella060420/expense-monitorer",
+    category: ["react"],
+    key_techs: ["ReactJS", "JavaScript"],
+  },
+  { 
+    id:5,
     name: "Simple Profile",
     description:
       "It helps a potential client understand what I am capable of, what tools I use and the extent of my expertise in the work I do",
@@ -144,7 +155,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML5", "CSS3"],
   },
   {
-    id:2,
+    id:6,
     name: "Full Stack Conf",
     image_path: "/images/Full Stack Conf.PNG",
     deployed_url: "https://teamabella060420.github.io/U9-Bootstrap-Basics/",
@@ -157,7 +168,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id:3,
+    id:7,
     name: "Web Style Guide",
     image_path: "/images/Web-Style-Guide.PNG",
     deployed_url: "https://teamabella060420.github.io/Web-Style-Guide/#grid",
@@ -172,7 +183,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id:4,
+    id:8,
     name: "My Biography",
     image_path: "/images/Basic Biography.PNG",
     deployed_url: "https://teamabella060420.github.io/techdegree-project-1/index.html",
@@ -184,7 +195,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id:5,
+    id:9,
     name: "Online Registration Form",
     image_path: "/images/online-registration.PNG",
     deployed_url: "https://teamabella060420.github.io/p3-online-registration-form/",
@@ -196,7 +207,7 @@ export const projects: IProject[] = [
   },
 
   {
-    id:6,
+    id:10,
     name: "Transition and Transform",
     image_path: "/images/3d-transform.PNG",
     deployed_url: "https://teamabella060420.github.io/U4-Transition-Transform-3D-2/",
@@ -207,7 +218,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML5&CSS3"],
   },
   {
-    id:7,
+    id:11,
     name: "Virtual Reality",
     image_path: "/images/Virtual Reality.PNG",
     deployed_url: "https://teamabella060420.github.io/U4-SASS-nestingmediaqueries/",
@@ -221,7 +232,7 @@ export const projects: IProject[] = [
     ],
   },
   {
-    id:8,
+    id:12,
     name: "Purple Portfolio",
     image_path: "/images/Purple Portfolio.PNG",
     deployed_url: "https://teamabella060420.github.io/bootsrap-SASS/#portfolio",
@@ -232,7 +243,7 @@ export const projects: IProject[] = [
     key_techs: ["Bootstrap", "SaSS"],
   },
   {
-    id:9,
+    id:13,
     name: "Transform Gallery",
     image_path: "/images/TransformGallery.PNG",
     deployed_url: "https://teamabella060420.github.io/U4-Transition-Transform-3/",
@@ -243,7 +254,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML5&CSS3"],
   },
   {
-    id:10,
+    id:14,
     name: "Transition Gallery",
     image_path: "/images/TransitionGallery.PNG",
     deployed_url: "https://teamabella060420.github.io/U4-Transition-Transform-3/",
@@ -254,7 +265,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML5&CSS3"],
   },
   {
-    id:11,
+    id:15,
     name: "Interactive Photo Gallery",
     image_path: "/images/Interactive.PNG",
     deployed_url: "https://teamabella060420.github.io/U5-Project-Interactive-Photo-Gallery/",
@@ -265,7 +276,7 @@ export const projects: IProject[] = [
     key_techs: ["JavaScript", "HTML5", "CSS3",],
   },
   {
-    id:12,
+    id:16,
     name: "Pet Directory",
     image_path: "/images/Pet.PNG",
     deployed_url: "https://teamabella060420.github.io/U6-JavaScript-Build-an-Object-Challenge/",
@@ -276,7 +287,7 @@ export const projects: IProject[] = [
     key_techs: ["JavaScript", "HTML5", "CSS3",],
   },
   {
-    id:13,
+    id:17,
     name: "My Day",
     image_path: "/images/DOM.PNG",
     deployed_url: "https://teamabella060420.github.io/U6-JavaScript-DOM/",
@@ -287,7 +298,7 @@ export const projects: IProject[] = [
     key_techs: ["JavaScript", "HTML5", "CSS3",],
   },
   {
-    id:14,
+    id:18,
     name: "Let us Party",
     image_path: "/images/RSVP.PNG",
     deployed_url: "https://teamabella060420.github.io/U6-JavaScript-DOM-Scripting/",
@@ -298,7 +309,7 @@ export const projects: IProject[] = [
     key_techs: ["JavaScript", "HTML5", "CSS3",],
   },
   {
-    id:15,
+    id:19,
     name: "Wheel of Success",
     image_path: "/images/game.PNG",
     deployed_url: "https://teamabella060420.github.io/U6-Game-Show-App/",
