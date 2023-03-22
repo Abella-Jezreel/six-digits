@@ -144,6 +144,17 @@ export const projects: IProject[] = [
     key_techs: ["ReactJS", "JavaScript"],
   },
   { 
+    id:2,
+    name: "FlynnMart",
+    description:
+      "In this practical react js project, I created a full stack react ecommerce website using reactjs, redux toolkit and firebase v9 from scratch with modern UI and UX. I showed here how to use the react-redux toolkit, how to use firebase authentication in react redux toolkit, firebase firestore, firebase storage, how to use useState hooks, useEffect hooks, useRef hooks, how to use the remix icon library in my react projects and much more.",
+    image_path: "/images/flynnmart.PNG",
+    deployed_url: "https://flynn-mart.vercel.app",
+    github_url: "https://github.com/TeamAbella060420/Flynn-Mart",
+    category: ["react"],
+    key_techs: ["ReactJS", "JavaScript", "Redux", "Firebase"],
+  },
+  { 
     id:5,
     name: "Simple Profile",
     description:
