@@ -18,8 +18,11 @@
     "strong": "^2.0.0"
   },
   "devDependencies": {
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.10",
     "autoprefixer": "^10.2.4",
     "postcss": "^8.2.4",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "typescript": "^5.7.3"
   }
 }
