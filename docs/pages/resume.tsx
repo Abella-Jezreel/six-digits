@@ -23,12 +23,12 @@ const Resume = () => {
             <p className="font-semibold">
               Southern Luzon State University (2017)
             </p>
-            <p className="my-3">
+            <p className="my-3" style={{ fontSize: "14px" }}>
               I graduated in 2017 with a Bachelor of Science in Electrical
               Engineering from Southern Luzon State University in the
               Philippines. While my academic background is in engineering, I
               also studied Front-End Development Techdegree from Team Treehouse
-              and completed a MERN Stack Development certification on Udemy. 
+              and completed a MERN Stack Development certification on Udemy.
             </p>
           </div>
         </motion.div>
@@ -39,13 +39,13 @@ const Resume = () => {
               Full Stack Developer – Accenture (Remote){" "}
             </h5>
             <p className="font-semibold">(July 2022 – February 2025)</p>
-            <p className="my-3">
+            <p className="my-3" style={{ fontSize: "14px" }}>
               {" "}
               I developed an online shop for gaming gadgets, enhancing the user
               experience for specialized equipment purchases using React.js,
               TypeScript, Redux, GraphQL, and Tailwind CSS. To foster community
               engagement, I created a tournament section that allows users to
-              create, join, and compete in various games. 
+              create, join, and compete in various games.
             </p>
           </div>
         </motion.div>
