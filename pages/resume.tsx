@@ -28,7 +28,7 @@ const Resume = () => {
               Engineering from Southern Luzon State University in the
               Philippines. While my academic background is in engineering, I
               also studied Front-End Development Techdegree from Team Treehouse
-              and completed a MERN Stack Development certification on Udemy.
+              and completed a MERN Stack Development certification on Udemy. 
             </p>
           </div>
         </motion.div>
