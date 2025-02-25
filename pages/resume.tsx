@@ -29,10 +29,6 @@ const Resume = () => {
               Philippines. While my academic background is in engineering, I
               also studied Front-End Development Techdegree from Team Treehouse
               and completed a MERN Stack Development certification on Udemy.
-              These programs equipped me with expertise in modern web
-              technologies, including React, Node.js, Express, and full-stack
-              development, enabling me to build responsive and scalable
-              applications.
             </p>
           </div>
         </motion.div>
@@ -49,12 +45,7 @@ const Resume = () => {
               experience for specialized equipment purchases using React.js,
               TypeScript, Redux, GraphQL, and Tailwind CSS. To foster community
               engagement, I created a tournament section that allows users to
-              create, join, and compete in various games. Additionally, I
-              implemented live streaming and chat features, enabling real-time
-              interaction among gamers and strengthening community involvement
-              within the platform. On the back end, I built a server using
-              Node.js with Express.js, Apollo GraphQL, and MongoDB, ensuring a
-              seamless and scalable application architecture.
+              create, join, and compete in various games. 
             </p>
           </div>
         </motion.div>
