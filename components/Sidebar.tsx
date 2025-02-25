@@ -29,7 +29,7 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="/images/CV.docx.pdf"
+        href="/images/Mr. Jezreel Abella - CV.pdf"
         download="Jezreel Abella CV.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
       >
@@ -56,10 +56,10 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /> <span>Manila, Philippines </span>
+          <GoLocation className="mr-2" /> <span>Dublin City, Ireland </span>
         </div>
         <p className="my-2 "> teamabella@outlook.com </p>
-        <p className="my-2"> +63 927 263 2154 </p>
+        <p className="my-2"> +353 87 656 7497 </p>
       </div>
 
       {/* Email Button */}

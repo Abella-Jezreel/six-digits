@@ -9,16 +9,26 @@ import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 import { Service } from "../types";
 
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 import { fadeInUp, stagger, routeAnimation } from "../animation";
 
-const About = ({endpoint}) => {
+const About = ({ endpoint }) => {
   // console.log(services);
 
   return (
-    <motion.div variants={routeAnimation} initial="initial" animate="animate" exit="exit" className="flex flex-col flex-grow px-6 pt-1 ">
+    <motion.div
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+      className="flex flex-col flex-grow px-6 pt-1 "
+    >
       <h6 className="my-3 text-base font-medium">
-      I graduated from Team Treehouse with a Front-End Development Tech degree and I have strong knowledge of React JS, Typescript, JavaScript, Tailwind, Next JS, CSS3, SASS, Bootstrap, and HTML5. I am an energetic problem solver, and I also have a Bachelor degree in Electrical Engineering with years of experience in Construction of high rise Buildings and Building Maintenance.
+        Experienced Full Stack Developer with 7+ years of expertise in React.js, Next Js,
+        JavaScript, TypeScript, GraphQL, NodeJs and many more. Passionate about building
+        scalable web applications and optimizing performance. Strong
+        problem-solving skills and a track record of delivering high-quality
+        solutions in fast-paced environments.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "
@@ -28,13 +38,18 @@ const About = ({endpoint}) => {
           What I am doing
         </h4>
 
-        <motion.div className="grid gap-6 my-3 md:grid-cols-2" variants={stagger} animate="animate" initial="initial">
+        <motion.div
+          className="grid gap-6 my-3 md:grid-cols-2"
+          variants={stagger}
+          animate="animate"
+          initial="initial"
+        >
           {/* children's initial and animate property should be same as the parent during a stagger effect  */}
           {services.map((service) => (
             <motion.div
               className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
               key={service.title}
-              variants={fadeInUp} 
+              variants={fadeInUp}
             >
               <ServiceCard service={service} />
             </motion.div>
@@ -47,13 +62,13 @@ const About = ({endpoint}) => {
 
 //!called every time  the page refreshed
 export const getServerSideProps: GetServerSideProps = async (
-   context: GetServerSidePropsContext
+  context: GetServerSidePropsContext
 ) => {
-//    const res = await fetch('${process.env.VERCEL_URL}/api/services')
-//    const data = await res.json()
-//    console.log(data)
-   return { props: { endpoint: process.env.VERCEL_URL } }
-}
+  //    const res = await fetch('${process.env.VERCEL_URL}/api/services')
+  //    const data = await res.json()
+  //    console.log(data)
+  return { props: { endpoint: process.env.VERCEL_URL } };
+};
 
 //!called only during the build of the project
 //? make sure the server(localhost:3000)[this will receive the request during build] is running on a terminal during the build
