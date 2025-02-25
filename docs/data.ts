@@ -160,7 +160,7 @@ export const projects: IProject[] = [
     description:
       "It helps a potential client understand what I am capable of, what tools I use and the extent of my expertise in the work I do",
     image_path: "/images/Simple Profile.PNG",
-    deployed_url: "https://teamabella060420.github.io/Project-2-Official/#skills",
+    deployed_url: "https://project-2-official.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/Project-2-Official",
     category: ["HTML5&CSS3"],
     key_techs: ["HTML5", "CSS3"],
@@ -169,7 +169,7 @@ export const projects: IProject[] = [
     id:6,
     name: "Full Stack Conf",
     image_path: "/images/Full Stack Conf.PNG",
-    deployed_url: "https://teamabella060420.github.io/U9-Bootstrap-Basics/",
+    deployed_url: "https://u9-bootstrap-basics.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/U9-Bootstrap-Basics",
     category: ["Bootstrap"],
     description:
@@ -178,38 +178,38 @@ export const projects: IProject[] = [
     key_techs: ["Bootstrap, HTML5"],
   },
 
-  {
-    id:7,
-    name: "Web Style Guide",
-    image_path: "/images/Web-Style-Guide.PNG",
-    deployed_url: "https://teamabella060420.github.io/Web-Style-Guide/#grid",
-    github_url: "https://github.com/TeamAbella060420/Web-Style-Guide",
-    category: ["SCSS"],
-    description:
-      "It facilitates you to write clean, easy and less CSS in a program construct. It contains fewer codes so you can write CSS quicker. It has very good documentation, meaning that you can get all the required information online. It provides nesting so you can use nested syntax.",
-    key_techs: [
-      "SCSS",
-      "HTML5&CSS3",
-    ],
-  },
+  // {
+  //   id:7,
+  //   name: "Web Style Guide",
+  //   image_path: "/images/Web-Style-Guide.PNG",
+  //   deployed_url: "https://teamabella060420.github.io/Web-Style-Guide/#grid",
+  //   github_url: "https://github.com/TeamAbella060420/Web-Style-Guide",
+  //   category: ["SCSS"],
+  //   description:
+  //     "It facilitates you to write clean, easy and less CSS in a program construct. It contains fewer codes so you can write CSS quicker. It has very good documentation, meaning that you can get all the required information online. It provides nesting so you can use nested syntax.",
+  //   key_techs: [
+  //     "SCSS",
+  //     "HTML5&CSS3",
+  //   ],
+  // },
 
-  {
-    id:8,
-    name: "My Biography",
-    image_path: "/images/Basic Biography.PNG",
-    deployed_url: "https://teamabella060420.github.io/techdegree-project-1/index.html",
-    github_url: "https://github.com/TeamAbella060420/techdegree-project-1",
-    category: ["HTML5&CSS3"],
-    description:
-      "This is my first website when I learned the basics of front end development which is HTML and CSS.",
-    key_techs: ["HTML5&CSS3"],
-  },
+  // {
+  //   id:8,
+  //   name: "My Biography",
+  //   image_path: "/images/Basic Biography.PNG",
+  //   deployed_url: "https://teamabella060420.github.io/techdegree-project-1/index.html",
+  //   github_url: "https://github.com/TeamAbella060420/techdegree-project-1",
+  //   category: ["HTML5&CSS3"],
+  //   description:
+  //     "This is my first website when I learned the basics of front end development which is HTML and CSS.",
+  //   key_techs: ["HTML5&CSS3"],
+  // },
 
   {
     id:9,
     name: "Online Registration Form",
     image_path: "/images/online-registration.PNG",
-    deployed_url: "https://teamabella060420.github.io/p3-online-registration-form/",
+    deployed_url: "https://techdegree-project-1-ecyb.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/p3-online-registration-form",
     category: ["HTML5&CSS3"],
     description:
@@ -221,7 +221,7 @@ export const projects: IProject[] = [
     id:10,
     name: "Transition and Transform",
     image_path: "/images/3d-transform.PNG",
-    deployed_url: "https://teamabella060420.github.io/U4-Transition-Transform-3D-2/",
+    deployed_url: "https://u4-transition-transform-3-d-2.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/U4-Transition-Transform-3D-2",
     category: ["HTML5&CSS3"],
     description:
@@ -232,7 +232,7 @@ export const projects: IProject[] = [
     id:11,
     name: "Virtual Reality",
     image_path: "/images/Virtual Reality.PNG",
-    deployed_url: "https://teamabella060420.github.io/U4-SASS-nestingmediaqueries/",
+    deployed_url: "https://web-style-guide-oe5m.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/U4-SASS-nestingmediaqueries",
     category: ["SCSS"],
     description:
@@ -246,8 +246,8 @@ export const projects: IProject[] = [
     id:12,
     name: "Purple Portfolio",
     image_path: "/images/Purple Portfolio.PNG",
-    deployed_url: "https://teamabella060420.github.io/bootsrap-SASS/#portfolio",
-    github_url: "https://github.com/Dey-Sumit/football-app",
+    deployed_url: "https://bootsrap-sass.vercel.app/",
+    github_url: "https://github.com/Abella-Jezreel/bootsrap-SASS",
     category: ["Bootstrap"],
     description:
       "Bootstrap includes a handful of Sass maps, key value pairs that make it easier to generate families of related CSS. We use Sass maps for our colors, grid breakpoints, and more. Just like Sass variables, all Sass maps include the ! default flag and can be overridden and extended.",
@@ -257,7 +257,7 @@ export const projects: IProject[] = [
     id:13,
     name: "Transform Gallery",
     image_path: "/images/TransformGallery.PNG",
-    deployed_url: "https://teamabella060420.github.io/U4-Transition-Transform-3/",
+    deployed_url: "https://u4-transition-transform-3.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/U4-Transition-Transform-3",
     category: ["HTML5&CSS3"],
     description:
@@ -279,7 +279,7 @@ export const projects: IProject[] = [
     id:15,
     name: "Interactive Photo Gallery",
     image_path: "/images/Interactive.PNG",
-    deployed_url: "https://teamabella060420.github.io/U5-Project-Interactive-Photo-Gallery/",
+    deployed_url: "https://u5-project-interactive-photo-gallery.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/U5-Project-Interactive-Photo-Gallery",
     category: ["JavaScript"],
     description:
@@ -290,7 +290,7 @@ export const projects: IProject[] = [
     id:16,
     name: "Pet Directory",
     image_path: "/images/Pet.PNG",
-    deployed_url: "https://teamabella060420.github.io/U6-JavaScript-Build-an-Object-Challenge/",
+    deployed_url: "https://u5-project-interactive-photo-gallery-tsa8.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/U6-JavaScript-Build-an-Object-Challenge",
     category: ["JavaScript"],
     description:
@@ -301,7 +301,7 @@ export const projects: IProject[] = [
     id:17,
     name: "My Day",
     image_path: "/images/DOM.PNG",
-    deployed_url: "https://teamabella060420.github.io/U6-JavaScript-DOM/",
+    deployed_url: "https://u6-java-script-dom.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/U6-JavaScript-DOM",
     category: ["JavaScript"],
     description:
@@ -312,7 +312,7 @@ export const projects: IProject[] = [
     id:18,
     name: "Let us Party",
     image_path: "/images/RSVP.PNG",
-    deployed_url: "https://teamabella060420.github.io/U6-JavaScript-DOM-Scripting/",
+    deployed_url: "https://u6-java-script-dom-scripting.vercel.app/",
     github_url: "https://github.com/TeamAbella060420/U6-JavaScript-DOM-Scripting",
     category: ["JavaScript"],
     description:
@@ -323,8 +323,8 @@ export const projects: IProject[] = [
     id:19,
     name: "Wheel of Success",
     image_path: "/images/game.PNG",
-    deployed_url: "https://teamabella060420.github.io/U6-Game-Show-App/",
-    github_url: "https://github.com/TeamAbella060420/U6-JavaScript-DOM-Scripting",
+    deployed_url: "https://u6-game-show-app.vercel.app/",
+    github_url: "https://github.com/Abella-Jezreel/U6-Game-Show-App",
     category: ["JavaScript"],
     description:
       "This word-guessing game is built with JavaScript. Some JavaScript concepts you'll find underneath the hood including arrays, functions, loops, conditionals and events. Guess the phrase by selecting a letter on the screen's keyboard. You get 5 chances. Guess the phrase before you run out of turns! Guess 5 wrong letters and you lose the game.",

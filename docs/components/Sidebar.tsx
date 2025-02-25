@@ -2,18 +2,52 @@ import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
-import path from '../assets/2x2.jpg'
-
+import { useState } from "react";
+import path from "../assets/2x2.jpg";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
+  const [click, setClick] = useState(false);
 
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
+    setClick(!click);
   };
 
   return (
     <>
+      <div className="flex flex-row justify-end">
+        <span onClick={changeTheme} className="ml-auto rounded-lg">
+          {/* //TODO remove bg black */}
+          {click ? (
+            <svg
+              className="text-yellow dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              style={{ height: "1.5rem", width: "1.5rem" }}
+            >
+              <path
+                fill-rule="evenodd"
+                d="M13 3a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0V3ZM6.343 4.929A1 1 0 0 0 4.93 6.343l1.414 1.414a1 1 0 0 0 1.414-1.414L6.343 4.929Zm12.728 1.414a1 1 0 0 0-1.414-1.414l-1.414 1.414a1 1 0 0 0 1.414 1.414l1.414-1.414ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm-9 4a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2H3Zm16 0a1 1 0 1 0 0 2h2a1 1 0 1 0 0-2h-2ZM7.757 17.657a1 1 0 1 0-1.414-1.414l-1.414 1.414a1 1 0 1 0 1.414 1.414l1.414-1.414Zm9.9-1.414a1 1 0 0 0-1.414 1.414l1.414 1.414a1 1 0 0 0 1.414-1.414l-1.414-1.414ZM13 19a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0v-2Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          ) : (
+            <svg
+              style={{ height: "1.5rem", width: "1.5rem" }}
+              className="text-black block dark:hidden"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+          )}
+        </span>
+      </div>
       <img
         src={path.src}
         alt="avatar"
@@ -42,7 +76,7 @@ const Sidebar = () => {
         <a href="https://www.youtube.com/watch?v=vci5QPRvSQk">
           <AiFillYoutube className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/jezreel-abella-94a7a5238/" >
+        <a href="https://www.linkedin.com/in/jezreel-abella-94a7a5238/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/TeamAbella060420">
@@ -69,13 +103,6 @@ const Sidebar = () => {
         onClick={() => window.open("teamabella@outloo.com")}
       >
         Email me
-      </button>
-      <button
-        onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
-      >
-        {/* //TODO remove bg black */}
-        Toggle Theme
       </button>
     </>
   );
